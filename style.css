@@ -1,0 +1,32 @@
+html{
+    font-size: 62.5%;
+}
+
+.text{
+    color: orange;
+    font-size: 2rem;
+    width: 35rem;
+    background-color: rgb(247, 235, 193);
+    padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align:center;
+    margin: auto;
+}
+
+.text::before,
+.text::after{
+    content: "/";
+    font-size: 2.5rem;
+}
+
+.text::before{
+    margin-right: 1.5rem;
+    transform: rotate(-35deg);
+}
+
+
+.text::after{
+    margin-left: 1.5rem;
+    transform: rotate(35deg);
+}
